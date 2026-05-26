@@ -16,3 +16,11 @@ resource "azurerm_resource_group" "rg03"
   name = "dhwaja_rg03"
   location="central east"
 }
+
+
+resource "azurerm_resource_group" "rg04"
+{
+  name = "dhwaja_rg04"
+  location="centralwest"
+}
+
